@@ -13,6 +13,8 @@ public class SpringBootWebApplication extends SpringBootServletInitializer {
 		return application.sources(SpringBootWebApplication.class);
 	}
 
+	//Just invoke main as a Java application to run it.
+	
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(SpringBootWebApplication.class, args);
 	}
